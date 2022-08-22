@@ -22,3 +22,4 @@ data/kafka-data1/logs
 ```
 
 Debería ser necesario añadir un npm install al package.json de cada imagen de node.
+Además, cambiar la variable ```yml ADVERTISED_LISTENERS``` de ./docker-compose-yml con la IP interna del host.
