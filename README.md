@@ -21,3 +21,4 @@ Si el contenedor del broker se cierra, eliminar la sgte. carpeta:
 data/kafka-data1/logs
 ```
 
+Debería ser necesario añadir un npm install al package.json de cada imagen de node.
