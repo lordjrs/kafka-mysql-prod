@@ -21,5 +21,5 @@ Si el contenedor del broker se cierra, eliminar la sgte. carpeta:
 data/kafka-data1/logs
 ```
 
-Debería ser necesario añadir un npm install al package.json de cada imagen de node.
-Además, cambiar la variable ```yml ADVERTISED_LISTENERS``` de ./docker-compose-yml con la IP interna del host.
+Debería ser necesario añadir un ```npm install``` al ```package.json``` de cada imagen de node.
+Además, cambiar la variable ```ADVERTISED_LISTENERS``` de ```./docker-compose-yml``` con la IP interna del host.
